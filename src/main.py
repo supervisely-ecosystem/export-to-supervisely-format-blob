@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from supervisely.api.module_api import ApiField
 from supervisely.io.fs import get_file_ext
 from supervisely.project.download import download_fast
+from supervisely.project.project_type import _BLOB_TAG_NAME
 
 import sly_functions as f
 import workflow as w
@@ -140,16 +141,14 @@ def download(project: sly.Project) -> str:
 
 if __name__ == "__main__":
     project = api.project.get_info_by_id(project_id)
-    download_dir = download(project)
-    project_fs = sly.Project(download_dir, sly.OpenMode.READ)
-    if len(project_fs.blob_files) == 0:
+    if not project.custom_data.get(_BLOB_TAG_NAME, False):
         message = (
-            "No blob files found in the project. "
-            "It seems that the project does not support extended Supervisely format. "
-            "To download the project, please use app 'Export to Supervisely format' instead."
+            "It seems that the project does not support extended Supervisely format with Blob files. "
+            f"To download '{project.name}' project, please use app 'Export to Supervisely format' instead."
         )
         sly.logger.warning(message)
         raise Exception(message)
+    download_dir = download(project)
     w.workflow_input(api, project.id)
     file_info = sly.output.set_download(download_dir)
     w.workflow_output(api, file_info)

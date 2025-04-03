@@ -1,5 +1,5 @@
 <div align="center" markdown>
-<img src="https://user-images.githubusercontent.com/106374579/186665737-ec3da9cc-193f-43ee-85db-a6f802b2dfe4.png"/>
+<img src="https://github.com/supervisely-ecosystem/export-to-supervisely-format/releases/download/v3.2.6/poster_blob.png"/>
 
 # Export to Supervisely format: Blobs
 

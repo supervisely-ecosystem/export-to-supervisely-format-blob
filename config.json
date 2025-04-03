@@ -1,5 +1,5 @@
 {
-	"name": "Export to Supervisely format: Blobs",
+	"name": "Export to Supervisely format: Blob",
 	"type": "app",
 	"version": "2.0.0",
 	"categories": ["images", "export"],
@@ -10,11 +10,11 @@
 	"task_location": "workspace_tasks",
 	"isolate": true,
 	"headless": true,
-	"icon": "https://i.imgur.com/1hqGMyg.png",
+	"icon": "https://github.com/supervisely-ecosystem/export-to-supervisely-format/releases/download/v3.2.6/Icon_blob.png",
 	"icon_background": "#FFFFFF",
 	"context_menu": {
 		"target": ["images_project", "images_dataset"],
 		"context_root": "Download as"
 	},
-	"poster": "https://user-images.githubusercontent.com/106374579/186665737-ec3da9cc-193f-43ee-85db-a6f802b2dfe4.png"
+	"poster": "https://github.com/supervisely-ecosystem/export-to-supervisely-format/releases/download/v3.2.6/poster_blob.png"
 }
