@@ -1,0 +1,10 @@
+secret_debug.env
+.idea
+venv
+.venv/
+dataset_tools
+supervisely
+debug
+__pycache__
+data/
+.DS_Store
