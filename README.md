@@ -1,7 +1,7 @@
 <div align="center" markdown>
 <img src="https://github.com/supervisely-ecosystem/export-to-supervisely-format/releases/download/v3.2.6/poster_blob.png"/>
 
-# Export to Supervisely Format: Blob
+# Export to Supervisely format: Blob
 
 <p align="center">
   <a href="#Overview">Overview</a> •
@@ -9,11 +9,11 @@
   <a href="#How-To-Use">How To Use</a>
 </p>
 
-[![](https://img.shields.io/badge/supervisely-ecosystem-brightgreen)](https://ecosystem.supervisely.com/apps/supervisely-ecosystem/export-to-supervisely-format-blobs)
+[![](https://img.shields.io/badge/supervisely-ecosystem-brightgreen)](https://ecosystem.supervisely.com/apps/supervisely-ecosystem/export-to-supervisely-format-blob)
 [![](https://img.shields.io/badge/slack-chat-green.svg?logo=slack)](https://supervisely.com/slack)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/supervisely-ecosystem/export-to-supervisely-format-blobs)
-[![views](https://app.supervisely.com/img/badges/views/supervisely-ecosystem/export-to-supervisely-format-blobs.png)](https://supervisely.com)
-[![runs](https://app.supervisely.com/img/badges/runs/supervisely-ecosystem/export-to-supervisely-format-blobs.png)](https://supervisely.com)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/supervisely-ecosystem/export-to-supervisely-format-blob)
+[![views](https://app.supervisely.com/img/badges/views/supervisely-ecosystem/export-to-supervisely-format-blob.png)](https://supervisely.com)
+[![runs](https://app.supervisely.com/img/badges/runs/supervisely-ecosystem/export-to-supervisely-format-blob.png)](https://supervisely.com)
 
 </div>
 
@@ -55,12 +55,12 @@ The blob files work alongside offset files (with suffix `_offsets.pkl`), which s
 
 #### There are 2 ways how to export project:
 
-1.  Run from the context menu -> `Download` -> `Export to Supervisely Format: Blob`
+1.  Run from the context menu → `Download` → `Export to Supervisely Format: Blob`
 
     <img src="https://placeholder.png">
 
 2.  Run from the App Ecosystem
 
-Result archive will be available for download in `Tasks` list (image below) or from `Team Files` (path format is the following `Team Files`->`Export-to-Supervisely`->`<task_id>_<projectId>_<projectName>.tar`)
+Result archive will be available for download in `Tasks` list (image below) or from `Team Files` (path format is the following `Files` → `tmp` → `supervisely` → `export` → `Export to Supervisely Format: Blob` → `<task_id>` → `<projectId>_<projectName>.tar`)
 
 <img src="https://placeholder.png">
