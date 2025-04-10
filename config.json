@@ -14,7 +14,7 @@
 	"icon_background": "#FFFFFF",
 	"context_menu": {
 		"target": ["images_project", "images_dataset"],
-		"context_root": "Download"
+		"context_root": "Download as"
 	},
 	"poster": "https://github.com/supervisely-ecosystem/export-to-supervisely-format/releases/download/v3.2.6/poster_blob.png"
 }
