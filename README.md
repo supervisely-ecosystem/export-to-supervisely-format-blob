@@ -65,6 +65,8 @@ The blob files work alongside offset files (with suffix `_offsets.pkl`), which s
 
     <img src="https://github.com/supervisely-ecosystem/export-to-supervisely-format/releases/download/v3.2.6/app_eco_2.png">
 
-Result archive will be available for download in `Tasks` list (image below) or from `Team Files` (path format is the following `Files` → `tmp` → `supervisely` → `export` → `Export to Supervisely format: Blob` → `<task_id>` → `<projectId>_<projectName>.tar`)
+Result archive will be available for download in `Tasks` list or from `Team Files` (path format is the following `Files` → `tmp` → `supervisely` → `export` → `Export to Supervisely format: Blob` → `<task_id>` → `<projectId>_<projectName>.tar`)
+
+<img src="https://github.com/supervisely-ecosystem/export-to-supervisely-format/releases/download/v3.2.6/tasks.png">
 
 <img src="https://github.com/supervisely-ecosystem/export-to-supervisely-format/releases/download/v3.2.6/team_files.png">
