@@ -1,11 +1,11 @@
 {
-	"name": "Export to Supervisely format: Blob",
+	"name": "Export to Supervisely Format: Blob",
 	"type": "app",
 	"version": "2.0.0",
 	"categories": ["images", "export"],
 	"description": "Export images project to extended Supervisely format with Blobs",
-	"docker_image": "supervisely/import-export:6.73.339",
-	"instance_version": "6.12.34",
+	"docker_image": "supervisely/import-export:6.73.344",
+	"instance_version": "6.12.44",
 	"main_script": "src/main.py",
 	"task_location": "workspace_tasks",
 	"isolate": true,
@@ -14,7 +14,7 @@
 	"icon_background": "#FFFFFF",
 	"context_menu": {
 		"target": ["images_project", "images_dataset"],
-		"context_root": "Download as"
+		"context_root": "Download"
 	},
 	"poster": "https://github.com/supervisely-ecosystem/export-to-supervisely-format/releases/download/v3.2.6/poster_blob.png"
 }
