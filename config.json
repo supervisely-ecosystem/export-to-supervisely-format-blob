@@ -10,7 +10,7 @@
 	"task_location": "workspace_tasks",
 	"isolate": true,
 	"headless": true,
-	"icon": "https://github.com/supervisely-ecosystem/export-to-supervisely-format-blob/releases/download/untagged-0df5724989ea110543da/new_icon.svg",
+	"icon": "https://github.com/supervisely-ecosystem/export-to-supervisely-format-blob/releases/download/v0.0.7/new_icon.png",
 	"icon_background": "#FFFFFF",
 	"context_menu": {
 		"target": ["images_project", "images_dataset"],
