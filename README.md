@@ -57,16 +57,15 @@ The blob files work alongside offset files (with suffix `_offsets.pkl`), which s
 
 1.  Run from the context menu → `Download` → `Export to Supervisely format: Blob`
 
-    <img src="https://github.com/supervisely-ecosystem/export-to-supervisely-format/releases/download/v3.2.6/run_context.png">
-
+    <img src="https://github.com/supervisely-ecosystem/export-to-supervisely-format-blob/releases/download/untagged-8ff8f47b0fd2ee63c020/run_context_new.png">
 2.  Run from the App Ecosystem
 
-    <img src="https://github.com/supervisely-ecosystem/export-to-supervisely-format/releases/download/v3.2.6/app_eco_1.png">
+    <img src="https://github.com/supervisely-ecosystem/export-to-supervisely-format-blob/releases/download/untagged-8ff8f47b0fd2ee63c020/app_eco_1_new.png">
 
-    <img src="https://github.com/supervisely-ecosystem/export-to-supervisely-format/releases/download/v3.2.6/app_eco_2.png">
+    <img src="https://github.com/supervisely-ecosystem/export-to-supervisely-format-blob/releases/download/untagged-8ff8f47b0fd2ee63c020/app_eco_2_new.png">
 
 Result archive will be available for download in `Tasks` list or from `Team Files` (path format is the following `Files` → `tmp` → `supervisely` → `export` → `Export to Supervisely format: Blob` → `<task_id>` → `<projectId>_<projectName>.tar`)
 
-<img src="https://github.com/supervisely-ecosystem/export-to-supervisely-format/releases/download/v3.2.6/tasks.png">
+<img src="https://github.com/supervisely-ecosystem/export-to-supervisely-format-blob/releases/download/untagged-0df5724989ea110543da/tasks_new.png">
 
 <img src="https://github.com/supervisely-ecosystem/export-to-supervisely-format/releases/download/v3.2.6/team_files.png">
