@@ -1,20 +1,26 @@
 {
-	"name": "Export to Supervisely Blob",
-	"type": "app",
-	"version": "2.0.0",
-	"categories": ["images", "export"],
-	"description": "Export images project to extended Supervisely format with Blobs",
-	"docker_image": "supervisely/import-export:6.73.344",
-	"instance_version": "6.12.44",
-	"main_script": "src/main.py",
-	"task_location": "workspace_tasks",
-	"isolate": true,
-	"headless": true,
-	"icon": "https://github.com/supervisely-ecosystem/export-to-supervisely-format-blob/releases/download/v0.0.7/new_icon.png",
-	"icon_background": "#FFFFFF",
-	"context_menu": {
-		"target": ["images_project", "images_dataset"],
-		"context_root": "Download as"
-	},
-	"poster": "https://github.com/supervisely-ecosystem/export-to-supervisely-format/releases/download/v3.2.6/poster_blob.png"
+  "name": "Export to Supervisely Blob",
+  "type": "app",
+  "version": "2.0.0",
+  "categories": [
+    "images",
+    "export"
+  ],
+  "description": "Export images project to extended Supervisely format with Blobs",
+  "docker_image": "supervisely/import-export:6.73.483",
+  "instance_version": "6.15.35",
+  "main_script": "src/main.py",
+  "task_location": "workspace_tasks",
+  "isolate": true,
+  "headless": true,
+  "icon": "https://github.com/supervisely-ecosystem/export-to-supervisely-format-blob/releases/download/v0.0.7/new_icon.png",
+  "icon_background": "#FFFFFF",
+  "context_menu": {
+    "target": [
+      "images_project",
+      "images_dataset"
+    ],
+    "context_root": "Download as"
+  },
+  "poster": "https://github.com/supervisely-ecosystem/export-to-supervisely-format/releases/download/v3.2.6/poster_blob.png"
 }
