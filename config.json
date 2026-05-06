@@ -8,7 +8,7 @@
   ],
   "description": "Export images project to extended Supervisely format with Blobs",
   "docker_image": "supervisely/import-export:6.73.564",
-  "instance_version": "6.15.35",
+  "instance_version": "6.15.60",
   "main_script": "src/main.py",
   "task_location": "workspace_tasks",
   "isolate": true,
